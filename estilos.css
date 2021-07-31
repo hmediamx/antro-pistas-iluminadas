@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: url(img/base_botones.jpg) -38px -46px; margin: 0px; padding: 0px;
+	}
+	
+
+.encabezado { width: 960px; margin: 0px auto; display: block; height: 240px; padding: 10px 0px 15px 0px; }
+.encabezado .banner { width: 748px; height: 148px; display: block; margin: 0px auto; overflow: hidden; display: block; background: #CCC; float: right; border: #fff 1px solid; }
+
+.encabezado h1 { width: 936px; height: 98px; display: block; background: url(img/rentadepistailuminada.png) top left no-repeat; margin: -15px auto 0px auto; }
+.encabezado h1 span { display: none; }
+.encabezado h2 { width: 200px; height: 125px; display: block; background: url(img/logotipo.png) top left no-repeat; margin: 0px auto; float: left; }
+.encabezado h2 span { display: none; }
+
+.medio { width: 960px; margin: 0px auto; overflow: hidden; }
+
+.izquierda { width: 160px; padding: 0px 30px 0px 20px; height: 530px; display: block; float: left; margin-top: 20px; }
+.derecha { width: 160px; padding: 0px 20px 0px 30px; height: 530px; display: block; float: right; left; margin-top: 20px; }
+
+.izquierda img, .derecha img { border: #FFF 1px solid; width: 160px; height: 500px; }
+	
+.pista { width: 540px; height: 540px; margin: 0px 0 0 0; float: left; }
+.uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho, .nueve { width: 180px; height: 180px; display: block; float: left; background: url(img/pista.jpg); text-indent: -9999px; }
+.uno { background-position: 0px 0px; }
+.dos { background-position: 180px 0px; }
+.tres { background-position: 360px 0px; }
+.cuatro { background-position: 540px 0px; }
+.cinco { background-position: 720px 0px; }
+.seis { background-position: 900px 0px; }
+.siete { background-position: 1080px 0px; }
+.ocho { background-position: 1260px 0px; }
+.nueve { background-position: 1440px 0px; }
+
+.uno:hover{ background-position: 0px 180px; }
+.dos:hover{ background-position: 180px 180px; }
+.tres:hover{ background-position: 360px 180px; }
+.cuatro:hover{ background-position: 540px 180px; }
+.cinco:hover{ background-position: 720px 180px; }
+.seis:hover{ background-position: 900px 180px; }
+.siete:hover{ background-position: 1080px 180px; }
+.ocho:hover{ background-position: 1260px 180px; }
+.nueve:hover{ background-position: 1440px 180px; }
+.limpiar { width: 100%; display: block; clear: both; }
+
+.hide { display: none; }
+
+.telefonos { width: 940px; color: #FFF; background: #306; margin: 0px auto 15px auto; padding: 5px; font-family: "Trebuchet MS", sans-serif; font-size: 19px; text-align: center; }
+.telefonos b { color: #FC0; }
+
+
+/* - - - 		PIE		  - - - */
+.wasap { width: 200px; float: left; background: url(img/wasap.png) top left no-repeat; height: 40px; color: #FFF; padding: 5px 0 0 50px; margin: 15px 0 0 0; font-size: 22px; font-weight: bold; font-family: "Trebuchet MS", Verdana, sans-serif; }
+
+.pie { display: block; width: 900px; margin: 20px auto 50px auto; overflow: hidden; border-top: #FFF 1px solid; }
+.redes_sociales { float: right; overflow: hidden; width: 400px; overflow: hidden; }
+.redes_sociales .enlaces { margin: 0px; padding: 0px; overflow: hidden; float: left; margin: 10px 0 0 0; }
+.redes_sociales ul li { list-style: none; float: left; margin: 0px 7px 0 0;  }
+.facebook, .twitter, .youtube { width: 40px; height: 40px; display: block; background: url(img/redessociales.png); margin: 0 0 5px 0; text-indent: -9999px; }
+.redes_sociales .facebook:hover { background-position: 0px 40px; }
+.redes_sociales .youtube { background-position: 40px 0px; }
+.redes_sociales .youtube:hover { background-position: 40px 40px; }
+.redes_sociales .twitter { background-position: 80px 0px; }
+.redes_sociales .twitter:hover { background-position: 80px 40px; }
+.fb-like-box { float: left; }

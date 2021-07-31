@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: url(img/fondosecciones.jpg) -0px -0px; margin: 0px; padding: 0px;
+	font-family: 'Orbitron', sans-serif;
+	color: #FFF;
+	}
+	
+.contenido { width: 760px; height: 510px; padding: 20px; }
+.contenido h1 { border-bottom: #fff 1px solid; padding: 10px 0px; }
+.foto { width: 250px; float: left; display: block; }
+.foto img { width: 250px; border: #fff 3px solid; }
+.texto { display: block; float: right; width: 450px; }
+
+.aparta { float: right; margin: 50px -20px 0 0; background: #FC0; padding: 5px 10px; font-size: 22px; color: #000; }
+.aparta span { font-weight: bold; color: #F30; }
+	
